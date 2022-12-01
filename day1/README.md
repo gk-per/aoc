@@ -1,4 +1,4 @@
 # AdventOfCode.Day1
 
-** https://adventofcode.com **
+https://adventofcode.com
 
