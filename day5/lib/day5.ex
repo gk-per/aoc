@@ -1,6 +1,6 @@
 defmodule AdventOfCode.Day5 do
   @moduledoc """
-  Documentation for `AdventOfCode.Day4`.
+  Documentation for `AdventOfCode.Day5`.
   """
 
   @doc """
@@ -134,6 +134,7 @@ defmodule AdventOfCode.Day5 do
             |> IO.inspect(label: "replace to row")
 
           new_from_chart_row = Enum.drop(from_chart_row, -how_many)
+
           chart =
             chart
             |> List.replace_at(from, new_from_chart_row)
